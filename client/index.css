@@ -1,25 +1,33 @@
 #head {
-    text-align: center;
+    text-align: center;;
 }
+html { 
+    background-color: #FAFAFA;
 
+   } 
 #links {
     padding-right: 25px;
     
 }
 #container {
     font: Times;
-    background-color: #FAFAFA;
 }
-#allignleft {
+.allignleft {
     float: left;
     text-align:left;
     width: 50%;
     font-weight: bold;
 }
-#allignright {
+.allignright {
     float: right;
     text-align:right;
     width: 50%;
     font-weight:bold;
 }
 
+.sectionHead {
+    font-weight: "bold";
+}
+.projHeader {
+    padding-bottom: 20px;
+}

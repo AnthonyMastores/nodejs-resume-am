@@ -8,7 +8,7 @@ Project: Lab 2 / Web Resume
 Description: This is a web resume hosted on azure using html/css and is being submitted as part of Lab 2.
 -->
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     
@@ -20,18 +20,19 @@ Description: This is a web resume hosted on azure using html/css and is being su
 <body>
 <div id = "container" >
     <div id = "head"> 
-        <h1 font-weight = "bold">Anthony Mastores</h1>
+        <h1 >Anthony Mastores</h1>
         <span id = "links"> <a href = "mailto:anthonyjmastores@lewisu.edu">anthonyjmastores@lewisu.edu</a>&nbsp;
             <a href = "https://github.com/AnthonyMastores"> github.com/AnthonyMastores</a> </span>
         <div style="clear: both;"></div>
     </div>
 
-        <h4 id = "allignright">Cell: (815)-585-1755 </h4>
-    <h2 font-weight = "bold">EDUCATION</h2> 
+        <h4 class = "allignright">Cell: (815)-585-1755 </h4>
+    <h2 class = "sectionHead">EDUCATION</h2> 
         <hr>
-        <h3 id = "allignleft">Lewis University, College of Aviation, Science, and Tech, &emsp;Romeoville, IL</h3>
-        <p id = "allignright">Expected May 2023</p>
+        <h3 class = "allignleft">Lewis University, College of Aviation, Science, and Tech, &emsp;Romeoville, IL</h3>
+        <p class = "allignright">Expected May 2023</p>
     <div style="clear: both;"></div>
+
         <p> Bachelor of Science in Computer Science <br>
             Concentration: Software Engineering <br>
             GPA: 3.9/4.0 <br>
@@ -41,14 +42,15 @@ Description: This is a web resume hosted on azure using html/css and is being su
             Applied Programming Languages, Discrete Mathematics, Software Engineering, Database Systems, Algorithms & Data Structures, Web & Distributed Programming
         </p>
 
-        <h3 id = "allignleft" >Plainfield South High School, Plainfield, IL</h3> 
-        <p id = "allignright">June 2020</p>
+        <h3 class = "allignleft" >Plainfield South High School, Plainfield, IL</h3> 
+        <p class = "allignright">June 2020</p>
         <div style="clear: both;"></div>
+
        <p> Awards: Top 2% of Graduating Class, National Honor Society, National AP Scholar </p>
-        <h2>EXPERIENCE</h2>
+        <h2 class = "sectionHead">EXPERIENCE</h2>
         <hr>
-        <h3 id = "allignleft">Plainfield South Robotics Club, Plainfield IL, Founding Member </h3>
-            <p id = "allignright">2018-2020</p>
+        <h3 class = "allignleft">Plainfield South Robotics Club, Plainfield IL, Founding Member </h3>
+            <p class = "allignright">2018-2020</p>
             <div style="clear: both;"></div>
             <ul style="list-style-type:square">
             <li>Collaborate with team of peers to compete in VEX Robotics competitions utilizing Python with Raspberry Pi.</li>
@@ -64,20 +66,23 @@ Description: This is a web resume hosted on azure using html/css and is being su
             <hr>
         <h2> PROJECTS </h2>
         <ul style="list-style-type:square">
-            <li>Math Tutor (JavaScript, HTML, CSS)</li>
-            <ul style = "list-style-type:square"> 
-                <li>Utilizes html, CSS, and JavaScript to build a tutoring game tailored towards young children. Hosted at: cool-math-tutor.netlify.app</li> 
-            </ul><br>
-            <li>CODING Standards Validator (Go) </li>
-            <ul style = "list-style-type:square"> 
-                <li> Verifies a Go project has a README file, License file, incorporates correct line wrapping, and tab 
+            <li class = "projHeader">Math Tutor (JavaScript, HTML, CSS)
+                <ul style = "list-style-type:square"> 
+                    <li>Utilizes html, CSS, and JavaScript to build a tutoring game tailored towards young children. Hosted at: cool-math-tutor.netlify.app</li> 
+                </ul>
+             </li>
+            <li class = "projHeader">CODING Standards Validator (Go) 
+                <ul style = "list-style-type:square"> 
+                    <li> Verifies a Go project has a README file, License file, incorporates correct line wrapping, and tab 
                     indentation. Incorporates built-in Go automated testing to verify correct functionality.</li>
-            </ul><br>
-            <li> Crypto Correlator (Python)</li>
-            <ul style = "list-style-type:square"> 
-                <li> Collects accurate data of several cryptocurrencies and analyzes the correlation value between BTC,ETH, 
+                </ul>
+            </li>
+            <li class = "projHeader"> Crypto Correlator (Python)
+                <ul style = "list-style-type:square"> 
+                    <li> Collects accurate data of several cryptocurrencies and analyzes the correlation value between BTC,ETH, 
                     etc</li>
-            </ul>
+                </ul>
+            </li>
          </ul>
 </div>
 
